@@ -3,10 +3,9 @@ import discord
 import json
 from window import Host
 
-TOKEN='Nzk4NjQxNDkzODQ5NTM4NjIw.Go-N1M._6GP82p0nC_HoEVWSo2Kxe8Nv_5IoxGe7svFOg'
-API='AIzaSyDAzUwZuBTs_1QqoJiPEwEURFoZPmTZ9J8'
+TOKEN='YOUR_DISCORD_TOKEN'
 
-creator_ids= [522158489867649036]
+creator_ids= [YOUR_PROFILE_ID, ...] #you can add other people's id if you also want them to operate
 
 intents= discord.Intents.all()
 client= discord.Client(intents=intents)
